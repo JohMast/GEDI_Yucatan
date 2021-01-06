@@ -17,7 +17,7 @@ R Scripts for the analysis and visualisation of GEDI Data, particular with the a
 
 * [**GEDI Mission Overview**](https://gedi.umd.edu/): Website of the GEDI project with information on the mission, instruments, applications, and data access. https://gedi.umd.edu/
 * [**GEDI Quick Guide**](https://lpdaac.usgs.gov/documents/635/GEDI_Quick_Guide.pdf): GEDI Spatial Querying and Subsetting Quick Guide from NASA's Land Processes DAAC.
-* [**rGEDI**](https://github.com/carlos-alberto-silva/rGEDI]): R package for visualisation and processing of GEDI data. When possible, we recommend this be used over the functions provided in this repository, as rGEDI is regularly maintained.
+* [**rGEDI**](https://github.com/carlos-alberto-silva/rGEDI): R package for visualisation and processing of GEDI data. When possible, we recommend this be used over the functions provided in this repository, as rGEDI is regularly maintained.
 
 
 ## Project Contributors:
