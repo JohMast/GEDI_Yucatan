@@ -4,7 +4,7 @@ Date:
 	06.01.2020
 Description:
 	Data for the study: Space Lidar for Archaeology? Reanalyzing GEDI Data for Detection of Ancient Maya Buildings.
-	Quality and biophyiscal information for 67 pairs of footprints. Pairs consist of one footprint which is intersecting a structure and a similar neighbor which 	is not intersecting a structure.
+	Quality and biophyiscal information for 67 pairs of footprints. Pairs consist of one footprint which is intersecting a building and a similar neighbor which is not intersecting a building.
 Project Contributors:
 	Žiga Kokalj, Research Centre of the Slovenian Academy of Sciences and Arts
 	Johannes Mast, University of Würzburg
@@ -15,15 +15,15 @@ Fields:
 	- Beam: Beam designation.
 	- src_fil: Filename of the source hdf5 file.
 	- int_build: Built status
-		- 2 Intersecting a structure
-		- 1 Partly intersecting a structure
-		- 0 Not intersecting a structure
+		- 2 Intersecting a building
+		- 1 Partly intersecting a building
+		- 0 Not intersecting a building
 	- beam_pair: 
 		- 0  Not tagged as part of a pair
 		- >=1  Part of a pair, the number corresponding to the ID of the pair
 	- is_bajo: 
-		- 0 Not in bajo
-		- 1 Partially or completely in bajo
+		- 0 Not in a bajo
+		- 1 Partially or completely in a bajo
 Further Fields, layers of the GEDI L2B product. See the GEDI L2B dictionary for a detailed description.
 	l2a_quality_flag1
 	l2b_quality_flag1
